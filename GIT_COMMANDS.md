@@ -1,6 +1,13 @@
+## One time pre-req
+
+### Setup git 
+   1) https://git-scm.com/install/windows?utm_source=chatgpt.com 
+   2) Create github account from the shared invite link 
+
+
 ## Basic Git Initialization Commands
 
-##### Clone this repo locally
+### Clone this repo locally
 git clone https://github.com/kch55-sys/UnityRoboTest
 
 
@@ -38,9 +45,12 @@ git add .
 ### Commit your staged files with a message
 git commit -m "<message>"
 
+### Check the commit history
+git log
+
 
 ### When ready to push the new code, validate your branch is upto date to void merge conflict or overwriting files. 
-git status  -> this thould have no uncommitted files
+git status  -> this should have no uncommitted files
 git checkout master
 git pull
 git checkout <your branch>
