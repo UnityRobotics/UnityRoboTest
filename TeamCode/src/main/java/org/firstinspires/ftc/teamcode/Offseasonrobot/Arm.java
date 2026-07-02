@@ -6,7 +6,7 @@ import static org.firstinspires.ftc.robotcore.external.BlocksOpModeCompanion.tel
 
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
-//
+
 @TeleOp(name = "Arm test")
 public class Arm {
     private DcMotor arm;
@@ -25,3 +25,4 @@ telemetry.update();
 }
 }
 }
+//
